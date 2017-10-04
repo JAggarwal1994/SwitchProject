@@ -10,17 +10,13 @@ public class SwitchProject {
         int correctProblems = 0;
         boolean continueQuiz = true;
 
-        System.out.println("Welcome to the Wright State School of Math!");
-        System.out.println("");
-        System.out.println("Please choose one of the following options "
-                + "for your math quiz:");
-        System.out.println("1. Addition with numbers 1 - 10");
-        System.out.println("2. Addition with numbers 1 - 100");
-        System.out.println("3. Subtraction with numbers 1 - 10");
-        System.out.println("4. Subtration with numbers 1 - 100");
-        System.out.println("5. Multiplication with numbers 1 - 10");
-        System.out.println("6. Exit the program");
-        System.out.println("");
+        String menu = "Welcome to the Wright State School of Math!%n%nPlease "
+                + "choose one of the following options for your math quiz:"
+                + "%n1. Addition with numbers 1 - 10%n2. Addition with numbers"
+                + " 1 - 100%n3. Subtraction with numbers 1 - 10%n4. Subtraction"
+                + " with numbers 1 - 100%n5. Multiplication with numbers 1 -"
+                + " 10%n6. Exit the program%n%n";
+        System.out.printf(menu);
         
         while (continueQuiz) 
         {
@@ -55,17 +51,7 @@ public class SwitchProject {
                             correctProblems++;
                         }
                     }
-                    System.out.println("Welcome to the Wright State School of Math!");
-                    System.out.println("");
-                    System.out.println("Please choose one of the following options "
-                            + "for your math quiz:");
-                    System.out.println("1. Addition with numbers 1 - 10");
-                    System.out.println("2. Addition with numbers 1 - 100");
-                    System.out.println("3. Subtraction with numbers 1 - 10");
-                    System.out.println("4. Subtration with numbers 1 - 100");
-                    System.out.println("5. Multiplication with numbers 1 - 10");
-                    System.out.println("6. Exit the program");
-                    System.out.println("");
+                    System.out.printf(menu);
                     break;
 
                 case 2:
@@ -94,17 +80,7 @@ public class SwitchProject {
                             correctProblems++;
                         }
                     }
-                    System.out.println("Welcome to the Wright State School of Math!");
-                    System.out.println("");
-                    System.out.println("Please choose one of the following options "
-                            + "for your math quiz:");
-                    System.out.println("1. Addition with numbers 1 - 10");
-                    System.out.println("2. Addition with numbers 1 - 100");
-                    System.out.println("3. Subtraction with numbers 1 - 10");
-                    System.out.println("4. Subtration with numbers 1 - 100");
-                    System.out.println("5. Multiplication with numbers 1 - 10");
-                    System.out.println("6. Exit the program");
-                    System.out.println("");
+                    System.out.printf(menu);
                     break;
 
                 case 3:
@@ -132,17 +108,7 @@ public class SwitchProject {
                             correctProblems++;
                         }
                     }
-                    System.out.println("Welcome to the Wright State School of Math!");
-                    System.out.println("");
-                    System.out.println("Please choose one of the following options "
-                            + "for your math quiz:");
-                    System.out.println("1. Addition with numbers 1 - 10");
-                    System.out.println("2. Addition with numbers 1 - 100");
-                    System.out.println("3. Subtraction with numbers 1 - 10");
-                    System.out.println("4. Subtration with numbers 1 - 100");
-                    System.out.println("5. Multiplication with numbers 1 - 10");
-                    System.out.println("6. Exit the program");
-                    System.out.println("");
+                    System.out.printf(menu);
                     break;
 
                 case 4:
@@ -171,17 +137,7 @@ public class SwitchProject {
                             correctProblems++;
                         }
                     }
-                    System.out.println("Welcome to the Wright State School of Math!");
-                    System.out.println("");
-                    System.out.println("Please choose one of the following options "
-                            + "for your math quiz:");
-                    System.out.println("1. Addition with numbers 1 - 10");
-                    System.out.println("2. Addition with numbers 1 - 100");
-                    System.out.println("3. Subtraction with numbers 1 - 10");
-                    System.out.println("4. Subtration with numbers 1 - 100");
-                    System.out.println("5. Multiplication with numbers 1 - 10");
-                    System.out.println("6. Exit the program");
-                    System.out.println("");
+                    System.out.printf(menu);
                     break;
 
                 case 5:
@@ -210,17 +166,7 @@ public class SwitchProject {
                             correctProblems++;
                         }
                     }
-                    System.out.println("Welcome to the Wright State School of Math!");
-                    System.out.println("");
-                    System.out.println("Please choose one of the following options "
-                            + "for your math quiz:");
-                    System.out.println("1. Addition with numbers 1 - 10");
-                    System.out.println("2. Addition with numbers 1 - 100");
-                    System.out.println("3. Subtraction with numbers 1 - 10");
-                    System.out.println("4. Subtration with numbers 1 - 100");
-                    System.out.println("5. Multiplication with numbers 1 - 10");
-                    System.out.println("6. Exit the program");
-                    System.out.println("");
+                    System.out.printf(menu);
                     break;
 
                 case 6:
