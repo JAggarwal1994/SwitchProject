@@ -173,8 +173,8 @@ public class SwitchProject {
                     if(problemsAttempted == 0)
                     {
                         double percentageCorrect = 0;
-                        System.out.printf("You got %d problems correct out of %d "
-                                + "problems attempted. That is %.2f percent "
+                        System.out.printf("You got %d problems correct out of "
+                                + "%d problems attempted. That is %.2f percent "
                                 + "correct. Goodbye!"
                                 , correctProblems, problemsAttempted
                                 , percentageCorrect);
