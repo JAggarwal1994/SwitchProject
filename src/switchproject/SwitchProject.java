@@ -170,6 +170,17 @@ public class SwitchProject {
                     break;
 
                 case 6:
+                    if(problemsAttempted == 0)
+                    {
+                        double percentageCorrect = 0;
+                        System.out.printf("You got %d problems correct out of %d "
+                                + "problems attempted. That is %.2f percent "
+                                + "correct. Goodbye!"
+                                , correctProblems, problemsAttempted
+                                , percentageCorrect);
+                    }
+                    else
+                    {
                     double percentageCorrect
                             = ((double) correctProblems / problemsAttempted)
                             * 100;
@@ -178,8 +189,9 @@ public class SwitchProject {
                             + "correct. Goodbye!"
                             , correctProblems, problemsAttempted
                             , percentageCorrect);
+                    }
                     continueQuiz = false;
-                    break;
+                    break;                    
 
                 default:
                     System.out.println("Valid choices are 1-6; please "
