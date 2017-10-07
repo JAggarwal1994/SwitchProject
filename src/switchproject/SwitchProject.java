@@ -1,5 +1,12 @@
 package switchproject;
 import java.util.Scanner;
+/**
+ * 
+ * @author Jason Aggarwal
+ * CS1180-03
+ * Tyler Highlander
+ * Project 1: Arithmetic Quiz
+ */
 
 public class SwitchProject {
 
